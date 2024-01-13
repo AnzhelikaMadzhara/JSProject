@@ -1,14 +1,11 @@
 'use strict'
 
-let a
-let b = 6
-
 function myFn() {
-    let b = 5
+    let b
     a = true
-    console.log(b)
+    b = 10
+    console.log(a)
 }
 
 myFn()
 console.log(a)
-console.log(b)
